@@ -12,7 +12,6 @@ html {
 
 a {
   color: #568c36;
-  text-decoration: underline;
 }
 
 a:hover {
@@ -42,6 +41,10 @@ a:hover {
 
   color: #fff;
   text-decoration: none;
+}
+
+.nav a:focus {
+  background-color: #000;
 }
 
 .nav a:hover {
